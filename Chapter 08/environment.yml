@@ -1,0 +1,27 @@
+name: test
+channels:
+ - defaults
+dependencies:
+ - python=3.10.13
+ - pip
+ - protobuf
+ - setuptools
+ - sqlite
+ - tensorboard
+ - tensorflow
+ - tensorflow-base
+ - tensorflow-estimator
+ - pytesseract
+ - seaborn
+ - jupyter
+ - pip:
+   - torch
+   - numpy
+   - pandas
+   - scikit-learn
+   - scipy
+   - requests
+   - ipympl
+   - opencv-python==4.5.5.64
+   - imutils
+prefix: /opt/conda/envs/test
